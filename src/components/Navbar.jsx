@@ -12,9 +12,9 @@ export default function Navbar() {
                 <Typography.Title level={2} className='logo'>
                     <Link to='/'>CryptoWorld</Link>
                 </Typography.Title>
-                <Button>
+                {/* <Button>
                     <MenuOutlined />
-                </Button>
+                </Button> */}
             </div>
             <Menu theme='dark'>
                 <Menu.Item icon={<HomeOutlined />}>
